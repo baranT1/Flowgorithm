@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Mutlak de&#287;er &#246;devi"/>
+        <attribute name="authors" value="baran"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-10-12 11:11:50 &#214;S"/>
+        <attribute name="created" value="YmFyYW47RVpHSTsyMDI2LTEwLTEyOzExOjA3OjE5IMOWUzsyMjM2"/>
+        <attribute name="edited" value="YmFyYW47RVpHSTsyMDI2LTEwLTEyOzExOjExOjUwIMOWUzsxOzIzMzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, mutlakde&#287;er" type="Real" array="False" size=""/>
+            <output expression="&quot;Bir say&#305; giriniz&quot;" newline="True"/>
+            <input variable="x"/>
+            <if expression="x &lt; 0">
+                <then>
+                    <assign variable="mutlakde&#287;er" expression="x * -1"/>
+                    <output expression="&quot;Mutak de&#287;er: &quot;&amp;mutlakde&#287;er" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Mutlak de&#287;er: &quot;&amp;x" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
